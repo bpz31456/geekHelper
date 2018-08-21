@@ -18,7 +18,7 @@ This class implements a very crude persistence capability as `cn.baopz.core.Defa
 
 # Details
 The tool is completed in Four processes.
-1.A thread completes the login function.
-2.A threaded through all columns
-3.Each column  is assigned a thread in the thread pool and USES WebDriver to launch a browser for each thread with the same cookies.
-4.Call the implemented abstract method `cn.baopz.core.AbstractFetcher#persistence`.
+1. A thread completes the login function.
+2. A threaded through all columns
+3. Each column  is assigned a thread in the thread pool and USES WebDriver to launch a browser for each thread with the same cookies.
+4. Call the implemented abstract method `cn.baopz.core.AbstractFetcher#persistence`.
